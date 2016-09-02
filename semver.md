@@ -27,7 +27,7 @@ become a nightmare. If the dependency specifications are too tight, you are in
 danger of version lock (the inability to upgrade a package without having to
 release new versions of every dependent package). If dependencies are
 specified too loosely, you will inevitably be bitten by version promiscuity
-(assuming compatibility with more future versions than is reasonable).
+(an assumed compatibility with more future versions than is reasonable).
 Dependency hell is where you are when version lock and/or version promiscuity
 prevent you from easily and safely moving your project forward.
 
